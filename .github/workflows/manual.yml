@@ -11,8 +11,8 @@ on:
           - production
 
 jobs:
-  build:
-    runs-on: Ubuntu 26 
+  deploy:
+    runs-on: Ubuntu-latest
     steps:
       - name: Deploy the application
-      - run: echo "Deploying the application to ${{ inputs.environment }} environment!" 
+        run: echo "Deploying the application to ${{ inputs.environment }} environment!" 
