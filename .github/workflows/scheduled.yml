@@ -1,0 +1,10 @@
+on:
+  schedule:
+    - cron: '0 0 * * *' # min=0, hour=0, day=*, month=*, day of week=*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      #- uses: actions/checkout@v3
+      - run: echo "Hello, world!"

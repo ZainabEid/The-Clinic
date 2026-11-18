@@ -1,0 +1,1 @@
+add doc/adr file for each important disicion with commit with its name in the code name it like 003-locking.md
