@@ -4,4 +4,8 @@ function greet(name) {
 
 module.exports = greet
 
-console.log(greet("Admin"));
+
+if (require.main === module) {
+    console.log(greet("World"));
+}
+
